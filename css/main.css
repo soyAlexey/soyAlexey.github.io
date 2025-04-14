@@ -1,0 +1,113 @@
+@import url(/css/base/reset.css);
+@import url(/css/base/fonts.css);
+@import url(/css/base/variables.css);
+@import url(/css/components/header.css);
+@import url(/css/components/footer.css);
+@import url(/css/components/animations.css);
+
+/* ## About Me Section starts ## */
+
+.boxed-section {
+    max-width: var(--width-max-content);
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: var(--space-symmetric);
+    padding-right: var(--space-symmetric);
+}
+
+.about-me {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-symmetric);
+    max-width: var(--width-max-content);
+    margin-left: auto;
+    margin-right: auto;
+    padding: var(--space-symmetric);
+}
+
+.about-me__card {
+    padding: var(--space-symmetric);
+    display: grid;
+    gap: var(--space-small-symmetric);
+    border-radius: var(--border-radius);
+    transition: all .4s ease;
+    cursor: default;
+}
+
+.about-me__card:hover {background-color: var(--clr-dark-blue-gray);}
+
+.about-me__card:hover strong {
+    filter: hue-rotate(110deg);
+}
+
+.about-me__card > div {
+    padding-left: var(--space-symmetric);
+    border-left: 1px solid rgba(254 254 254 / 7%);
+    transition: all .4s ease;
+}
+
+.about-me__card:hover > div {
+    border-left: 1px solid rgba(254 254 254 / 30%);
+}
+
+
+.about-me__card h2 {
+    font-size: 1.5rem;
+    color: var(--clr-lavander);
+}
+
+.about-me__card h2 > span,
+.about-me__card > span {
+    font-family: var(--font-mono);
+    font-size: 1.3rem;
+    font-weight: normal;
+    letter-spacing: var(--space-between-tight-font);
+    color: var(--clr-gold);
+}
+
+.about-me__content {color: var(--clr-light-green);}
+
+.about-me__content ol {
+    margin-left: 2em;
+    list-style: auto;
+}
+.about-me__social {
+    margin-bottom: 6.5rem;
+    padding: var(--space-symmetric);
+}
+
+.about-me__social h2 {text-align: center;}
+
+.about-me__social ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-symmetric);
+}
+
+.about-me__social li {
+    flex: 1 0 7.5rem;
+    margin: 0;
+}
+
+.about-me__social a {
+    display: block;
+    height: 100%;
+    padding: var(--space-symmetric);
+    font-size: clamp(0.75rem, 1rem, 4rem);
+    text-align: center;
+    text-decoration: none;
+    border: solid 2px var(--clr-gold);
+    border-radius: var(--border-radius);
+}
+
+.about-me__social a:hover {
+    box-shadow: 0 0 8px 4px rgb(255 255 255 / 16%);
+}
+
+.about-me__social a svg {
+    display: block;
+    max-width: 4.5rem;
+    max-height: 4rem;
+    margin: 0 auto var(--space-small-symmetric);
+}
+/* ## About Me Section starts ## */

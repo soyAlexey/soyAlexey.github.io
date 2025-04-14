@@ -1,0 +1,24 @@
+:root {
+    --clr-blue-gray: #212432;
+    --clr-dark-blue-gray: #131520;
+    --clr-light-blue: #24a5ff;
+    --clr-ice-blue: #bfc7d5;
+    --clr-orange: #fe9000;
+    --clr-strong-orange: #ef4f1a;
+    --clr-gold: #ffd700;
+    --clr-light-green: #c3e88d;
+    --clr-lavander: #c792ea;
+    --clr-white: #ffff;
+
+    --font-sans-serif: Comfortaa, Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+    --font-mono: 'Space Mono', ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
+    --space-between-tight-font: .1rem;
+    --space-double-symmetric: 3rem;
+    --space-symmetric: 1.5rem;
+    --space-small-symmetric: 0.75rem;
+    --gap-symmetric: .5rem;
+
+    --width-max-content: 56rem;
+
+    --border-radius: .5rem;
+}

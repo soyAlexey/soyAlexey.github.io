@@ -1,0 +1,4 @@
+@keyframes writingCursor {
+    0%, 20% {opacity: 0;}
+    21% {opacity: 1;}
+}

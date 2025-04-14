@@ -1,0 +1,103 @@
+header {overflow: visible;}
+.presentation {
+    margin: 0 auto;
+    padding: var(--space-symmetric);
+    gap: var(--space-symmetric);
+    max-width: var(--width-max-content);
+}
+
+.presentation figure {
+    margin-bottom: var(--space-double-symmetric);
+    padding-right: var(--space-double-symmetric);
+    padding-right: calc(var(--space-symmetric) * 4.3);
+}
+
+.presentation figure img {
+    display: block;
+    max-width: 8rem;
+    margin-left: auto;
+    margin-right: auto;
+    transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    border-radius: 100%;
+    background-color: var(--clr-orange);
+}
+
+.presentation__body {
+    position: relative;
+    padding: var(--space-symmetric);
+    border-radius: var(--border-radius);
+    background-color: var(--clr-dark-blue-gray);
+}
+
+.presentation__body::before {
+    content: '';
+    position: absolute;
+    top: -2.5rem;
+    left: 48%;
+    border-left: 0 solid transparent;
+    border-right: 3rem solid transparent;
+    border-bottom: 3rem solid var(--clr-dark-blue-gray);
+    border-radius: var(--border-radius);
+}
+
+.presentation h1 {
+    text-align: center;
+    margin-bottom: var(--space-small-symmetric);
+}
+
+.presentation h1 span:first-of-type {
+    color: var(--clr-strong-orange);
+}
+
+.presentation h1 span:last-of-type {
+    color: var(--clr-lavander);
+    animation: writingCursor 1.2s linear infinite;
+    margin-right: -1.2rem;
+}
+
+.presentation p {
+    font-size: 1.125rem;
+    color: var(--clr-ice-blue);
+    text-align: center;
+}
+
+.mini-nav {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    padding: 0 var(--space-symmetric);
+    margin-bottom: var(--space-symmetric);
+}
+
+.mini-nav li {
+    display: block;
+    margin: 0;
+}
+
+.mini-nav a {
+    display: block;
+    width: 100%;
+    padding: var(--space-small-symmetric);
+    
+    font-family: var(--font-sans-serif);
+    font-size: clamp(.75rem, 4vw, 1.1rem);
+    font-weight: 700;
+    letter-spacing: var(--space-between-tight-font);
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    color: #6c739a;
+
+    transition: all .4s ease;
+}
+
+.mini-nav a:hover {
+    color: var(--clr-ice-blue);
+    filter: none;
+}
+
+.mini-nav.scrolled {
+    opacity: .8;
+}
