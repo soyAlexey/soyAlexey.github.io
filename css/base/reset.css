@@ -31,9 +31,10 @@ h2 {
 
 h3 {
     font-family: var(--font-mono);
-    font-size: 1rem;
+    font-size: 1.2rem;
     text-transform: uppercase;
     font-weight: normal;
+    font-weight: 700;
 }
 
 p, ol, ul, li, a {

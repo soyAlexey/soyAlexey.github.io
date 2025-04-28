@@ -6,6 +6,7 @@
     <title>Projects</title>
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
     <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/proyects.css">
 </head>
 <body>
     <header>
@@ -20,24 +21,87 @@
         </section>
         <ul class="mini-nav">
             <li>
-                <a href="#bigbola">Big bola</a>
+                <a href="#fullcodeBtn" aria-selected="false">FullCode</a>
             </li>
             <li>
-                <a href="#">Hospital Air</a>
+                <a href="#lowcodeBtn" aria-selected="false">LowCode</a>
             </li>
             <li>
-                <a href="#">CLA México</a>
-            </li>
-            <li>
-                <a href="#">Backyard Sale</a>
+                <a href="#allBtn" class="active" aria-selected="true">All</a>
             </li>
         </ul>
     </header>
 
     <main>
-        <section class="boxed-section">
-            <h2>Sadly, I haven't finished this part of the page :D<br><small>I'm hardly working on it</small></h2>
-        </section>
+        <ul class="project-cards boxed-section">
+            <li class="card">
+                <a href="#">
+                    <div class="card__media-container">
+                        <video src="https://res.cloudinary.com/dqkbjeu6z/video/upload/v1745790598/BigBola_Desktop_u10vae.webm" autoplay muted loop class="card__desktop-media"></video>
+                        <video src="https://res.cloudinary.com/dqkbjeu6z/video/upload/v1745790789/BigBola_Mobile_vkaaty.webm" autoplay muted loop class="card__mobile-media"></video>
+                    </div>
+                    <div class="card__titles-container">
+                        <h2>BigBola & Seven</h2>
+                        <h3>WordPress, HTML, CSS, PHP, JavaScript</h3>
+                    </div>
+                </a>
+            </li>
+            <li class="card">
+                <a href="#">
+                    <div class="card__media-container">
+                        <video src="https://res.cloudinary.com/dqkbjeu6z/video/upload/v1745796047/YardSale_Desktop_uytran.webm" autoplay muted loop class="card__desktop-media"></video>
+                        <video src="https://res.cloudinary.com/dqkbjeu6z/video/upload/v1745796047/YardSale_Mobile_xfpmmp.webm" autoplay muted loop class="card__mobile-media"></video>
+                    </div>
+                    <div class="card__titles-container">
+                        <h2>Yard Sale</h2>
+                        <h3>HTML, CSS, JavaScript</h3>
+                    </div>
+                </a>
+            </li>
+            <li class="card">
+                <a href="#">
+                    <div class="card__media-container">
+                        <video src="https://res.cloudinary.com/dqkbjeu6z/video/upload/v1745797591/LovieTreat_Desktop_kghshr.webm" autoplay muted loop class="card__desktop-media"></video>
+                        <video src="https://res.cloudinary.com/dqkbjeu6z/video/upload/v1745797590/LovieTreat_Mobile_xr43kl.webm" autoplay muted loop class="card__mobile-media"></video>
+                    </div>
+                    <div class="card__titles-container">
+                        <h2>Lovie Treat</h2>
+                        <h3>Shopify, HTML, CSS, Liquid, JavaScript</h3>
+                    </div>
+                </a>
+            </li>
+            <li class="card">
+                <a href="#">
+                    <div class="card__media-container">
+                        <video src="https://res.cloudinary.com/dqkbjeu6z/video/upload/v1745798920/GripFix_Desktop_urjiv9.webm" autoplay muted loop class="card__desktop-media"></video>
+                        <video src="https://res.cloudinary.com/dqkbjeu6z/video/upload/v1745799548/GripFix_Mobile_nwqj3m.webm" autoplay muted loop class="card__mobile-media"></video>
+                    </div>
+                    <div class="card__titles-container">
+                        <h2>GripFix</h2>
+                        <h3>WordPress, HTML, CSS, PHP, JavaScript</h3>
+                    </div>
+                </a>
+            </li>
+            <li class="card">
+                <div>
+                    <div class="card__media-container">
+                        <video src="https://res.cloudinary.com/dqkbjeu6z/video/upload/v1745800736/soyAlexey_Desktop_vcvlpa.webm" autoplay muted loop class="card__desktop-media"></video>
+                        <video src="https://res.cloudinary.com/dqkbjeu6z/video/upload/v1745800735/soyAlexey_Mobile_kehhk7.webm" autoplay muted loop class="card__mobile-media"></video>
+                    </div>
+                    <div class="card__titles-container">
+                        <h2>soyAlexey<br><span>you're on it</span></h2>
+                        <h3>HTML, CSS, JavaScript</h3>
+                    </div>
+                    <p>
+                        soyAlexey, my portfolio, is built with mobile first in mind. Using CSS with <strong>flexbox</strong> and <strong>grid</strong> layout to make the site content <strong>responsive</strong> without using media queries. <strong>Variables</strong> for scalability and quick style change.
+                    </p>
+                    <p>
+                        Taking advantage of the github pages, all this site is made with Full Code so you can get to know me better, explore my projects and, soon blogs!
+                    </p>
+                    <p><small>p.s: project*</small></p>
+                </div>
+            </li>
+        </ul>
     </main>
     
     <footer>
@@ -50,14 +114,14 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="#" class="active">
                         <svg xmlns="http://www.w3.org/2000/svg" width="496" height="512" fill="none" viewBox="0 0 496 512"><path fill="#C3E88D" d="M245.698 281.888a10.314 10.314 0 0 1 10.358 10.355v50.624a10.314 10.314 0 0 1-10.358 10.355 10.313 10.313 0 0 1-10.357-10.355v-50.624c.575-5.753 5.179-10.355 10.357-10.355Zm-49.485 18.409v20.71a10.314 10.314 0 0 0 10.358 10.355 10.313 10.313 0 0 0 10.357-10.355v-20.71a10.313 10.313 0 0 0-10.357-10.355 10.314 10.314 0 0 0-10.358 10.355Zm79.406 0v20.71a10.314 10.314 0 0 0 10.358 10.355 10.313 10.313 0 0 0 10.357-10.355v-20.71a10.313 10.313 0 0 0-10.357-10.355 10.314 10.314 0 0 0-10.358 10.355Zm108.752-158.203h8.056a10.313 10.313 0 0 0 10.357-10.355 10.313 10.313 0 0 0-10.357-10.355h-8.056a10.313 10.313 0 0 0-10.357 10.355 10.313 10.313 0 0 0 10.357 10.355ZM496 411.326c-.575 16.683-13.81 31.64-35.1 31.64H298.06v48.324h34.525a10.313 10.313 0 0 1 10.357 10.355A10.313 10.313 0 0 1 332.585 512h-169.17a10.313 10.313 0 0 1-10.357-10.355 10.313 10.313 0 0 1 10.357-10.355h34.525v-48.324H35.1c-20.715 0-34.525-14.382-35.1-31.64V157.052c0-19.56 16.111-35.092 35.1-35.092h139.248c6.329-50.05 31.072-94.346 67.323-120.234 3.452-2.301 8.055-2.301 11.508 0 36.826 25.887 61.568 70.184 68.473 120.234h24.167a10.313 10.313 0 0 1 10.357 10.355 10.313 10.313 0 0 1-10.357 10.355h-22.441c.576 14.382-.575 28.188-2.877 41.42l31.072 36.243c2.302 2.876 2.877 6.903 1.726 10.355l-17.262 45.447c-2.302 6.328-9.782 8.629-14.96 4.602l-36.251-25.888h-73.077l-36.25 25.888c-5.179 3.452-12.659 1.726-15.536-4.602l-17.262-45.447c-1.151-3.452-.576-7.479 1.726-10.355l31.072-36.243c-2.302-13.232-3.453-27.614-2.877-41.42H35.1c-8.631 0-14.96 6.903-14.96 14.957v94.346c25.892 4.602 45.456 24.737 49.484 50.049 29.921 4.027 52.937 29.915 52.937 59.83a10.313 10.313 0 0 1-10.357 10.355 10.313 10.313 0 0 1-10.357-10.355c0-22.436-18.413-40.27-40.279-40.27-6.904 0-13.81 1.726-20.139 5.178-4.603 2.876-10.933 1.15-13.81-3.452-2.877-4.602-1.15-10.93 3.453-13.807 5.754-3.452 11.508-5.177 17.838-6.903-3.453-14.958-14.961-26.463-29.346-30.49v101.249h455.721V257.726c-17.262 4.027-30.496 17.834-33.949 35.092 4.604 1.151 8.631 2.301 12.659 4.027 5.179 2.301 7.481 8.054 5.179 13.231-2.302 5.178-8.056 7.479-13.234 5.178-5.754-2.301-12.084-4.027-18.413-4.027-24.743 0-44.882 20.135-44.882 44.872a10.313 10.313 0 0 1-10.357 10.355 10.314 10.314 0 0 1-10.358-10.355c0-33.366 25.318-61.555 58.692-64.432 4.028-28.188 25.893-50.049 54.088-54.651v-80.54c0-8.629-6.905-14.957-14.961-14.957h-32.798a10.313 10.313 0 0 1-10.357-10.355 10.313 10.313 0 0 1 10.357-10.355h32.798c19.564 0 35.1 16.108 35.1 35.092C496 216.881 496 353.222 496 411.326ZM195.063 241.043c-6.905-13.232-9.782-22.436-13.235-32.216 0-.575-.575-1.151-.575-1.151l-17.838 20.711L173.773 256l21.29-14.957Zm89.763-12.656h-73.652c1.151 1.725 2.302 4.026 2.877 5.752h67.323c1.15-2.301 2.301-4.027 3.452-5.752Zm47.183-.576-17.262-20.135c-3.452 11.506-9.206 24.737-13.81 33.367l20.715 14.382 10.357-27.614ZM193.912 132.89c-2.302 23.586.575 48.899 9.206 75.362h90.339c8.056-24.162 11.508-44.872 9.207-75.362-4.028-44.872-24.167-85.717-54.089-110.454-31.072 24.737-51.211 65.582-54.663 110.454Zm84.009 310.652h-59.842v48.323h59.267v-48.323h.575Zm197.94-50.05H20.139v14.382c0 8.629 6.905 14.957 14.96 14.957h425.226c8.055 0 14.96-6.903 14.96-14.957l.576-14.382ZM212.9 109.879c0-22.436 12.659-44.872 34.525-43.722 23.016.576 34.524 21.861 34.524 43.722 0 21.86-12.084 44.296-35.675 44.296-23.016-1.15-33.949-24.737-33.374-44.296Zm21.866 0c0 8.629 3.452 21.285 12.083 23.586 8.631-2.301 12.084-14.957 12.084-23.586 0-12.657-6.33-22.436-12.084-23.587-5.754.575-12.083 10.355-12.083 23.587Z"/></svg>
                         <span>Projects</span>
                     </a>
                 </li>
                 <li>
-                    <a href="#">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="512" height="508" fill="none" viewBox="0 0 512 508"><path fill="#C3E88D" d="M137.366 52.032c8.325 0 15.263 6.938 15.263 15.263 0 8.326-6.938 15.263-15.263 15.263s-15.263-6.937-15.263-15.263c0-7.631 6.938-15.263 15.263-15.263Zm36.076 15.957c0 8.325 6.937 15.263 15.263 15.263 8.325 0 15.262-6.938 15.262-15.263s-6.937-15.263-15.262-15.263c-8.326-.694-15.263 6.244-15.263 15.263Zm50.645 0c0 8.325 6.937 15.263 15.263 15.263 8.325 0 15.262-6.938 15.262-15.263s-6.937-15.263-15.262-15.263c-8.326-.694-15.263 6.938-15.263 15.263ZM512 49.257v194.949c0 27.057-22.201 48.564-48.564 48.564h-11.1v88.108c0 27.057-21.507 48.564-48.564 48.564h-33.3l-74.927 74.927c-7.632 7.631-20.813 2.081-20.813-8.326v-66.601H48.564C21.507 429.442 0 407.935 0 380.878V185.93c0-27.057 21.507-48.564 48.564-48.564h11.794V49.257C60.358 22.201 81.865.694 108.92.694h210.212c6.937 0 12.488 5.55 12.488 12.488a12.436 12.436 0 0 1-12.488 12.487H108.921c-13.181 0-24.281 11.1-24.281 24.282v52.033h403.078V49.258c0-13.182-11.1-24.282-24.282-24.282H421.81a12.436 12.436 0 0 1-12.488-12.488A12.436 12.436 0 0 1 421.81 0h41.626C489.799.694 512 22.2 512 49.258Zm-84.64 244.206H224.78v66.602c0 10.406-13.181 15.957-20.813 8.325l-74.926-74.927h-20.12c-27.056 0-48.563-22.2-48.563-48.563v-83.252H48.564c-13.182 0-24.282 11.1-24.282 24.282v194.948c0 13.182 11.1 24.282 24.282 24.282h237.268c6.938 0 12.488 5.55 12.488 12.488v49.257l57.582-57.583c2.082-2.081 5.551-3.468 8.326-3.468h38.157c13.181 0 24.282-11.101 24.282-24.282v-88.109h.693Zm60.358-49.257v-117.94H84.64v117.94c0 13.182 11.1 24.282 24.281 24.282h24.976c3.469 0 6.244 1.387 8.325 3.469l57.583 57.582v-49.257c0-6.938 5.55-12.488 12.488-12.488h250.45c13.875 1.388 24.975-9.713 24.975-23.588ZM372.553 24.976h5.55c6.938 0 12.488-5.55 12.488-12.488S385.041 0 378.103 0h-5.55a12.436 12.436 0 0 0-12.488 12.488c0 6.938 5.55 12.488 12.488 12.488Z"/></svg>
+                    <a style="color: var(--clr-ice-blue);">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="512" height="508" fill="none" viewBox="0 0 512 508"><path fill="var(--clr-ice-blue)" d="M137.366 52.032c8.325 0 15.263 6.938 15.263 15.263 0 8.326-6.938 15.263-15.263 15.263s-15.263-6.937-15.263-15.263c0-7.631 6.938-15.263 15.263-15.263Zm36.076 15.957c0 8.325 6.937 15.263 15.263 15.263 8.325 0 15.262-6.938 15.262-15.263s-6.937-15.263-15.262-15.263c-8.326-.694-15.263 6.244-15.263 15.263Zm50.645 0c0 8.325 6.937 15.263 15.263 15.263 8.325 0 15.262-6.938 15.262-15.263s-6.937-15.263-15.262-15.263c-8.326-.694-15.263 6.938-15.263 15.263ZM512 49.257v194.949c0 27.057-22.201 48.564-48.564 48.564h-11.1v88.108c0 27.057-21.507 48.564-48.564 48.564h-33.3l-74.927 74.927c-7.632 7.631-20.813 2.081-20.813-8.326v-66.601H48.564C21.507 429.442 0 407.935 0 380.878V185.93c0-27.057 21.507-48.564 48.564-48.564h11.794V49.257C60.358 22.201 81.865.694 108.92.694h210.212c6.937 0 12.488 5.55 12.488 12.488a12.436 12.436 0 0 1-12.488 12.487H108.921c-13.181 0-24.281 11.1-24.281 24.282v52.033h403.078V49.258c0-13.182-11.1-24.282-24.282-24.282H421.81a12.436 12.436 0 0 1-12.488-12.488A12.436 12.436 0 0 1 421.81 0h41.626C489.799.694 512 22.2 512 49.258Zm-84.64 244.206H224.78v66.602c0 10.406-13.181 15.957-20.813 8.325l-74.926-74.927h-20.12c-27.056 0-48.563-22.2-48.563-48.563v-83.252H48.564c-13.182 0-24.282 11.1-24.282 24.282v194.948c0 13.182 11.1 24.282 24.282 24.282h237.268c6.938 0 12.488 5.55 12.488 12.488v49.257l57.582-57.583c2.082-2.081 5.551-3.468 8.326-3.468h38.157c13.181 0 24.282-11.101 24.282-24.282v-88.109h.693Zm60.358-49.257v-117.94H84.64v117.94c0 13.182 11.1 24.282 24.281 24.282h24.976c3.469 0 6.244 1.387 8.325 3.469l57.583 57.582v-49.257c0-6.938 5.55-12.488 12.488-12.488h250.45c13.875 1.388 24.975-9.713 24.975-23.588ZM372.553 24.976h5.55c6.938 0 12.488-5.55 12.488-12.488S385.041 0 378.103 0h-5.55a12.436 12.436 0 0 0-12.488 12.488c0 6.938 5.55 12.488 12.488 12.488Z"/></svg>
                         <span>Soon</span>
                     </a>
                 </li>

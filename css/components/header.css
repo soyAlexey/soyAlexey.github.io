@@ -50,10 +50,10 @@ header {overflow: visible;}
     color: var(--clr-strong-orange);
 }
 
-.presentation h1 span:last-of-type {
+.presentation h1 span:last-of-type { /* Pequeño cursor */
+    position: absolute;
     color: var(--clr-lavander);
     animation: writingCursor 1.2s linear infinite;
-    margin-right: -1.2rem;
 }
 
 .presentation p {
@@ -93,9 +93,13 @@ header {overflow: visible;}
     transition: all .4s ease;
 }
 
-.mini-nav a:hover {
+.mini-nav a:is(.active, :hover) {
     color: var(--clr-ice-blue);
     filter: none;
+}
+
+.mini-nav a.active {
+    text-shadow: 0 0 1px rgb(255 255 255);
 }
 
 .mini-nav.scrolled {

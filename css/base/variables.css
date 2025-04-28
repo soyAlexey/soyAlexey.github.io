@@ -21,4 +21,6 @@
     --width-max-content: 56rem;
 
     --border-radius: .5rem;
+    --border-thin: 1px solid rgba(254 254 254 / 7%);
+    --border-thin--hover: 1px solid rgba(254 254 254 / 30%);
 }

@@ -38,11 +38,11 @@ nav .navigation_list a {
     border-radius: var(--border-radius);
 }
 
-nav .navigation_list a:hover {
+nav .navigation_list a:is(:hover, .active) {
     background-color: var(--clr-dark-blue-gray);
     filter: none;
 }
-nav .navigation_list a:hover > * {
+nav .navigation_list a:is(:hover, .active) > * {
     filter: hue-rotate(100deg);
 }
 
